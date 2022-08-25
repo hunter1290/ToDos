@@ -1,0 +1,37 @@
+.todo_list {
+    margin-top: 500px;
+    
+  }
+  .listitems {
+    margin-top: 15px;
+    list-style: none;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    transform:translate(-2px);
+    opacity: 95%;
+    box-shadow: 0 2px 2px 2px hsl(235, 21%, 11%);
+    border-color: hsl(235, 24%, 19%);
+    
+  }
+  
+  .listitems ul {
+    padding-left: 15px;
+    padding-top: 2px;
+  }
+  
+  .listitems button {
+     margin-left:auto;
+    margin-top: 3px;
+    border-radius: 5px;
+  }
+  
+  .listitems button:hover{
+    color: red;
+    background-color: gray;
+  }
+  
